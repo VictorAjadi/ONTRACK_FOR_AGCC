@@ -1,0 +1,22 @@
+.scrollable{
+    transition: all 0.2s ease-in-out;
+    width: max-content; /* Set your desired width */
+    height: 100vh; /* Set your desired height */
+    overflow-y: auto;
+    z-index: 100;
+}
+.box-profile{
+    position: relative;
+    margin: 2% auto;
+    height: 200px;
+    width: 100%;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box-img-sm{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 35%;
+}
